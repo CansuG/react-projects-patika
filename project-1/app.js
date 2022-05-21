@@ -19,7 +19,7 @@ export default async (number) => {
     const user = await userData(number);
     const posts = await postData(number);
 
-    var post = posts.find((post) => post.id === 1);
+    var post = posts.filter((post) => post.id === 1);
 
     user["posts"] = post;
 
