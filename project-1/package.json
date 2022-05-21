@@ -1,0 +1,17 @@
+{
+  "name": "react-projects-patika",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "node-fetch": "^3.2.4"
+  },
+  "type": "module"
+}
+
